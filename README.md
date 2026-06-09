@@ -45,12 +45,14 @@ dart pub get
 dart test
 ```
 
-This activity is graded by **one test** worth the activity's points. It passes
-only when **both** are true:
+This activity is graded by **13 tests** (1 point each). They check:
 
-- ✅ `bin/student_detail.dart` prints the required summary (name, student
-  number, course, and all three enrolled courses)
-- ✅ every field in `student.json` is filled in
+- ✅ each of the 6 fields in `student.json` is filled in (6 tests)
+- ✅ `bin/student_detail.dart` prints the name, student number, course, year,
+  and each of the three enrolled courses (7 tests)
+
+Each part is graded independently, so you earn partial credit for the parts
+you finish.
 
 ## Submitting on Canvas
 
@@ -66,7 +68,7 @@ Pushing triggers the **Autograde** workflow. To confirm it passed:
 
 1. Open your repo on GitHub and click the **Actions** tab.
 2. Open the latest **Autograde** run and confirm the green ✅ check
-   and the "1 / 1 tests passed" summary.
+   and the "13 / 13 tests passed" summary.
 
 Then submit **both** on Canvas:
 
